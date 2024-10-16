@@ -3,12 +3,12 @@ import { useState } from "react";
 import "./App.css";
 
 function App() {
-	const [book, setBook] = useState({
+	const book={
 		name: "The Fault In Our Stars",
 		author: "John Green",
 		img: "https://images-na.ssl-images-amazon.com/images/I/817tHNcyAgL.jpg",
 		price: 250,
-	});
+	};
 
 	const initPayment = (data) => {
 		const options = {
